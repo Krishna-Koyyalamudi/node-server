@@ -6,9 +6,7 @@ const port = process.env.PORT || 4444;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.write('<html>');
-  res.write('<body><h2>Krishna Sumanth Koyyalamudi</h2></body>');
-  res.end('</html>');
+  res.end('Krishna Sumanth Koyyalamudi');
 });
 
 server.listen(port, hostname, () => {
