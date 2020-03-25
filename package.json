@@ -1,16 +1,20 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "engines": {
+    "node": "9.2.1"
+  },
   "description": "Trying node-server for first time",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Krishna-Koyyalamudi/node-server.git"
   },
-  "author": "",
+  "author": "Krishna Sumanth",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Krishna-Koyyalamudi/node-server/issues"
