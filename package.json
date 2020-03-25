@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "engines": {
-    "node": "9.2.1"
+    "node": "13.10.1"
   },
   "description": "Trying node-server for first time",
   "main": "index.js",
